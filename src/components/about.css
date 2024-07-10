@@ -1,0 +1,54 @@
+.about-section {
+  background-color: white;
+  margin-top: 40px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+}
+
+.card {
+  border: 1px solid #ccc;
+
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 10px 10px 10px rgba(12, 11, 11, 0.1);
+}
+
+h4 {
+  text-align: center;
+  text-decoration: underline;
+  color: #333333;
+  padding-bottom: auto;
+}
+
+h3 {
+  padding: 20px;
+  color: #333333;
+}
+h4 p,
+ul {
+  text-align: left;
+  color: #333333;
+  font-size: 1rem;
+}
+
+ul {
+  padding-bottom: auto;
+}
+li {
+  list-style: disc;
+  font-size: smaller;
+}
+.card:hover {
+  box-shadow: 5px 0px 25px #626361;
+}
+
+@media (max-width: 478px) {
+  .card-container {
+    display: inline-block;
+  }
+}

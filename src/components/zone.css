@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.zone-container {
+  padding-top: 30px;
+}
+.round-box-1,
+.round-box-2,
+.round-box-3 {
+  margin: 20px;
+}
+.round-box-1:hover {
+  filter: drop-shadow(0 0 1em lightgreen);
+}
+.round-box-2:hover {
+  filter: drop-shadow(0 0 1em rgb(242, 242, 103));
+}
+.round-box-3:hover {
+  filter: drop-shadow(0 0 1em rgb(241, 155, 134));
+}
+
+.round-box-1 {
+  width: 130px;
+  height: 130px;
+  background-color: #4db544;
+  border-radius: 50%;
+}
+.round-text-1 {
+  text-decoration: none;
+  color: white;
+  padding-top: 40px;
+}
+.round-box-2 {
+  width: 130px;
+  height: 130px;
+  background-color: rgb(228, 228, 94);
+  border-radius: 50%;
+}
+.round-text-2 {
+  text-decoration: none;
+  color: #333;
+  padding-top: 40px;
+}
+.round-box-3 {
+  width: 130px;
+  height: 130px;
+  background-color: rgb(217, 93, 93);
+  border-radius: 50%;
+}
+.round-text-3 {
+  text-decoration: none;
+  color: white;
+  padding-top: 40px;
+}
+.zone-p {
+  padding-top: 60px;
+  padding-left: 50px;
+  font-size: 0.8rem;
+}
+
+.zone-button {
+  margin-left: 50px;
+}
+
+.check-button {
+  background-color: #9b9b9b;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5 15px;
+  font-family: Markazi;
+  font-weight: 200;
+  color: white;
+}
+
+.check-button:hover {
+  background-color: #6c6c6c;
+}
+
+@media (max-width: 478px) {
+  .check-button {
+    display: block;
+    margin-top: 15px;
+  }
+  .zone-p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-size: 0.8rem;
+  }
+}

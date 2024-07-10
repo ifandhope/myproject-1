@@ -1,0 +1,86 @@
+.dailyCheck-container {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.dailyCheck-green {
+  background-color: lightgreen;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  display: flex;
+  margin: auto;
+}
+
+.dailyCheck-yellow {
+  background-color: yellow;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  display: flex;
+  margin: auto;
+}
+
+.dailyCheck-red {
+  background-color: red;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  display: flex;
+  margin: auto;
+}
+.safe-text,
+.warning-text,
+.danger-text {
+  text-decoration: none;
+}
+
+.green-text {
+  padding-left: 12px;
+  padding-top: 10px;
+}
+.yellow-text,
+.red-text {
+  padding-left: 17px;
+  padding-top: 10px;
+}
+
+.green-text,
+.red-text {
+  color: white;
+}
+
+.yellow-text {
+  color: #333;
+}
+
+.dailyCheck-header {
+  padding-top: 50px;
+}
+
+.dailyCheck-green-list,
+.dailyCheck-yellow-list,
+.dailyCheck-red-list {
+  margin-right: 20px;
+}
+
+li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.border-line {
+  border-top: 1px solid #ccc;
+  width: calc(100% - 40px);
+  margin: 10px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .dailyCheck-header,
+  .dailyCheck-green-list,
+  .dailyCheck-yellow-list,
+  .dailyCheck-red-list {
+    width: auto;
+    margin: 0 20px;
+  }
+}
